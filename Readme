@@ -1,6 +1,3 @@
-Name: Xibo Chen
-FSUID: xc19c
-
 1. I use pthread on server to create a thred for each user.
 2. I use select on client, to determine whether read form 
    socket or stdin.
