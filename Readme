@@ -1,0 +1,17 @@
+Name: Xibo Chen
+FSUID: xc19c
+
+1. I use pthread on server to create a thred for each user.
+2. I use select on client, to determine whether read form 
+   socket or stdin.
+
+Compile Step:
+1. Make to compile the file.
+2. "./server [configration_file]" to set up the server.
+3. "./client [configration_file]" to set up the client.
+4. On the client:
+    a. "login username" to log in as username;
+    b. "logout" to log out;
+    c. "chat @username message" to send message to username;
+    d. "chat message" to broadcast the messgae to all online users.
+    e. "exit" to exit the client.
